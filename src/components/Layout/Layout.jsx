@@ -8,6 +8,9 @@ const Layout = () => {
   <Sidebar/>
   <div className="main-layout">
     <TopNav/>
+    <div className="content">
+      <Router/>
+    </div>
   </div>
 </div>  )
 }
